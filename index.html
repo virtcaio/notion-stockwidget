@@ -15,23 +15,38 @@
       </div>
     </div>
     <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" id="light">
+<div class="tradingview-widget-container" id="light>
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYSE-AMC/" rel="noopener" target="_blank"><span class="blue-text">AMC Quotes</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
-  "symbol": "NYSE:AMC",
-  "width": 350,
-  "height": 220,
-  "locale": "en",
-  "dateRange": "1M",
+  "symbols": [
+    {
+      "description": "VMware",
+      "proName": "NYSE:VMW"
+    },
+    {
+      "description": "AMC",
+      "proName": "NYSE:AMC"
+    },
+    {
+      "description": "Equinix",
+      "proName": "NASDAQ:EQIX"
+    },
+    {
+      "description": "Alibaba",
+      "proName": "NYSE:BABA"
+    },
+    {
+      "description": "Service Now",
+      "proName": "NYSE:NOW"
+    }
+  ],
+  "showSymbolLogo": true,
   "colorTheme": "light",
-  "trendLineColor": "rgba(41, 98, 255, 1)",
-  "underLineColor": "rgba(41, 98, 255, 0.3)",
-  "underLineBottomColor": "rgba(41, 98, 255, 0)",
   "isTransparent": false,
-  "autosize": false,
-  "largeChartUrl": ""
+  "displayMode": "adaptive",
+  "locale": "en"
 }
   </script>
 </div>
@@ -39,25 +54,40 @@
     <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" id="dark">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYSE-AMC/" rel="noopener" target="_blank"><span class="blue-text">AMC Quotes</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
-  "symbol": "NYSE:AMC",
-  "width": 350,
-  "height": 220,
-  "locale": "en",
-  "dateRange": "1M",
+  "symbols": [
+    {
+      "description": "VMware",
+      "proName": "NYSE:VMW"
+    },
+    {
+      "description": "AMC",
+      "proName": "NYSE:AMC"
+    },
+    {
+      "description": "Equinix",
+      "proName": "NASDAQ:EQIX"
+    },
+    {
+      "description": "Alibaba",
+      "proName": "NYSE:BABA"
+    },
+    {
+      "description": "Service Now",
+      "proName": "NYSE:NOW"
+    }
+  ],
+  "showSymbolLogo": true,
   "colorTheme": "dark",
-  "trendLineColor": "rgba(41, 98, 255, 1)",
-  "underLineColor": "rgba(41, 98, 255, 0.3)",
-  "underLineBottomColor": "rgba(41, 98, 255, 0)",
   "isTransparent": false,
-  "autosize": false,
-  "largeChartUrl": ""
+  "displayMode": "adaptive",
+  "locale": "en"
 }
   </script>
 </div>
-    <!-- TradingView Widget END -->
+<!-- TradingView Widget END -->
     <!-- Custom JS for widget styling BEGIN -->
     <script src="app.js"></script>
     <!-- Custom JS END -->
